@@ -308,6 +308,21 @@ button.comprarBtnDestaque:hover {
     margin:82px;
 }
 
+/* aviso */
+.avisoBox {
+    background: #F0FFDE;
+    border: 2px solid #80B049;
+    border-radius: 20px;
+}
+.avisoBox p {
+    color: #3B5384;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    padding: 60px 40px;
+}
+
 /* section 5 */
 
 .accordion-item {
@@ -349,7 +364,7 @@ button.comprarBtnDestaque:hover {
     font-weight: 400;
 }
 .accordion-button::after {
-    background-image: url(/site/assets/img/icons/faq-icon.svg) !important;
+    background-image: url(/assets/img/icons/faq-icon.svg) !important;
 }
 
 
