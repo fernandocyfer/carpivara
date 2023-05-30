@@ -1,0 +1,228 @@
+.sectionFaq {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 14.4%, rgba(0, 0, 0, 0) 100%),url("/assets/img/banners/faq-banner.png");
+    background-repeat: no-repeat;
+    height: 391px;
+    margin-top: 64px;
+}
+.sectionFaq h1 {
+    color: #FFFFFF;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.sectionFaq h2 {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+/*  */
+
+.merda {
+    /* max-width: 960px !important; */
+    margin: 0 auto !important;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    margin: 64px 0px;
+  }
+  
+  .tituloFaqSelect {
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 500;
+    color: #2B2B2B;
+  }
+
+  .descricaoFaqSelect {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #767676;
+  }
+
+  .nav-items {
+    flex-grow: 1;
+    overflow: hidden;
+  }
+
+  .navigation i {
+    cursor: pointer;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 40px;
+  }
+  
+  .menu li {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #767676;
+  }
+  
+  .menu li.active {
+    /* background-color: #ccc; */
+    border-bottom: 4px solid #80B049;
+  }
+  
+  .faq {
+    margin-top: 20px;
+  }
+  
+  .faq-item {
+    display: none;
+  }
+  
+  .faq-item.active {
+    display: block;
+  }
+  
+
+  /* faq accordion*/
+
+  .accordion-item {
+    margin: 32px 0;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD !important;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.accordion-header {
+    border-radius: 20px !important;
+    background-color: #FFFFFF;
+}
+.accordion-button {
+    background-color: #FFFFFF !important;
+    font-weight: 700;
+    color: #2B2B2B;
+    font-size: 16px;
+}
+.accordion-item:first-of-type {
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+}
+.accordion-item:last-of-type {
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+}
+.accordion-button:not(.collapsed) {
+    color: #2B2B2B !important;
+    box-shadow: none !important;
+}
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+.accordion-body {
+    color: #767676;
+    font-size: 14px;
+    font-weight: 400;
+}
+.accordion-button::after {
+    background-image: url(/site/assets/img/icons/faq-icon.svg) !important;
+}
+
+/*  */
+
+
+#section3 {
+    margin-top: 180px;
+}
+.textoDuvida {
+    color: #3B5384;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.inputBox    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 620px;
+    background-color: #FFFFFF;
+}
+  
+.inputBox input {
+    border: 2px solid #9E9E9E;
+    border-radius: 100px;
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+  .inputBox i {
+    position: relative;
+    right: 30px;
+    color: #80B049;
+  
+  }
+  .pesquisaBox{
+    width: 600px;
+    height: 50px;
+    background-color:#eeeeee69;
+  }
+  
+  .pesquisaBox:focus{
+    background-color: #eeeeee69;
+    box-shadow: none;
+    border-color: #eee;
+  }
+
+
+
+@media (max-width:767px){
+    .accordion-button {
+        font-size: 14px;
+    } .accordion-item {
+        margin: 16px 0;
+        padding: 20px 0;
+    } .accordion-button.collapsed {
+        font-size:14px;
+    }
+}
+
+/* section 1 mobile */
+@media (max-width:767px) {
+  .sectionFaq {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 14.4%, rgba(0, 0, 0, 0) 100%),url("/assets/img/banners/faq-banner-mobile.png");
+    background-position-x: center;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+  } .sectionFaq h1 {
+    font-size: 22px;
+    line-height: 31px;
+  } .sectionFaq h2 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 767px){
+  .menu {
+    margin: 0;
+    justify-content: center;
+  } .faq {
+    padding: 10px;
+  } .tituloFaqSelect {
+    font-size: 22px;
+  } #section3 {
+    margin-top: 63px;
+  } .textoDuvida {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

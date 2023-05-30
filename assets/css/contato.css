@@ -1,0 +1,101 @@
+/* banner */
+.sectionFaq {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 14.4%, rgba(0, 0, 0, 0) 100%),url("/assets/img/banners/contato-banner.png");
+    background-repeat: no-repeat;
+    height: 391px;
+    margin-top: 64px;
+    background-position-x: center;
+}
+.sectionFaq h1 {
+    color: #FFFFFF;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.sectionFaq h2 {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+#section1 h1 {
+    color: #2B2B2B;
+    font-weight: 500;
+    font-size: 24px;
+}
+#section1 h3 {
+    color: #2B2B2B;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 19px;
+}
+#section1 p {
+    color: #767676;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.telContato {
+    color: #80B049;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    text-decoration: none;
+    margin-bottom: 16px;
+}
+#section1 p.emailContato {
+    color: #767676;
+    font-size: 14px;
+    font-weight: 400;
+}
+#section1 a.emailContato {
+    color: #007895;
+}
+#section1 span {
+    color: #767676;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.formItens {
+    border: 1px solid #DDDDDD;
+    border-radius: 20px;
+    padding: 10px 24px;
+}
+.formItens label {
+    font-size: 12px;
+    font-weight: 700;
+    color: #767676;
+    text-transform: uppercase;
+    margin-left: 12px;
+}
+.buttonForm {
+    background-color: #80B049;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 16px 50px;
+    border-radius: 16px;
+    border: none;
+}
+
+/* section 1 mobile */
+@media (max-width:767px) {
+    .sectionFaq {
+      background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 14.4%, rgba(0, 0, 0, 0) 100%),url("/assets/img/banners/contato-banner-mobile.png");
+      background-position-x: center;
+      margin-top: 20px;
+      background-repeat: no-repeat;
+    } .sectionFaq h1 {
+      font-size: 22px;
+      line-height: 31px;
+    } .sectionFaq h2 {
+      font-size: 14px;
+      line-height: 24px;
+    }
+  }

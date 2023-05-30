@@ -1,0 +1,298 @@
+/* steps */
+
+
+.vcv-timeline {
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 1020px !important;
+    margin: 0 auto;
+    padding: 40px 10px;
+    list-style-type: none;
+    color: #a7a7a7;
+}
+.vcv-timeline-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 0 auto;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 500;
+}
+.vcv-timeline-item span {
+    color: #2b2b2b;
+}
+.vcv-timeline-item::before, .vcv-timeline-item::after {
+    content: '';
+}
+.vcv-timeline-item::before {
+    content: attr(data-step);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 27px;
+    height: 27px;
+    margin: 0 10px 0 0;
+    border-radius: 50%;
+    border: 2px solid #767676;
+    color: #FFFFFF;
+    background-color: #767676;
+}
+.vcv-timeline-item::after {
+    height: 2px;
+    background: #a7a7a7;
+    width: 40%;
+    margin: 0 10px;
+}
+.vcv-timeline-item:last-of-type {
+    flex: 0 0 150px;
+}
+.vcv-timeline-item:last-of-type::after {
+    display: none;
+}
+.vcv-timeline-item.vcv-step-done::before {
+    content: '';
+    border-color: #aace35;
+    background: #aace35 url("data:image/svg+xml,%0A%3Csvg width='14px' height='11px' viewBox='0 0 14 11' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Activation-Theme-to-Premium' transform='translate(-827.000000, -183.000000)' fill='%23FFFFFF' fill-rule='nonzero'%3E%3Cg id='Activation-02' transform='translate(342.000000, 172.000000)'%3E%3Cg id='Navigation' transform='translate(44.000000, 0.000000)'%3E%3Cg id='check' transform='translate(441.000000, 11.000000)'%3E%3Cpolygon id='Path' points='11.8606017 0 4.86058121 6.82615443 2.13952103 4.17292819 0 6.25973131 4.8606221 11 14 2.08684301'%3E%3C/polygon%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E") no-repeat center;
+    background-size: 40%;
+}
+.vcv-timeline-item.vcv-step-done::after {
+    background: #aace35;
+}
+@media screen and (max-width: 768px) {
+    .vcv-timeline {
+        margin-bottom: 50px;
+   }
+    .vcv-timeline-item {
+        position: relative;
+   }
+    .vcv-timeline-item span {
+        text-align: left;
+        margin: 10px 0 0;
+        position: absolute;
+        top: 30px;
+        width: 100%;
+        left: 2px;
+        display: none;
+   }
+    .vcv-timeline-item:last-of-type {
+        flex: 0 0 auto;
+        margin: 0 30px 0 0;
+   }
+    .vcv-timeline-item::before {
+        margin: 0;
+   }
+    .vcv-timeline-item::after {
+        flex: 0 1 auto;
+   }
+}
+
+
+
+.containerTitles {
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 2px;
+    color: #717171;
+    text-transform: uppercase;
+}
+.containerdescription {
+    color: #3B5384;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 36px;
+    text-align: center;
+}
+
+/* section 2 */
+#section2 {
+    margin: 80px 10px;
+}
+.modeloCarro {
+    font-size: 32px;
+    font-weight: 500;
+}
+.dadosBox ul {
+    list-style: none;
+    border: 1px solid #DDDDDD;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.dadosBox ul li {
+    font-size: 12px;
+    color: #767676;
+    text-transform: uppercase;
+}
+.dadosBox ul li:first-child {
+    font-weight: 600;
+}
+
+
+
+
+
+
+/* section 3 */
+
+.priceTitleDestaque {
+    margin-top: 26px;
+    gap: 8px;
+}
+.priceTitleDestaque h4 {
+    font-size: 30px;
+    font-weight: 500;
+}
+.priceTitleDestaque span {
+    font-weight: 900;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.priceTitleDestaque .iconDestaque {
+    content:url(/assets/img/icons/destaque-icon.svg);
+}
+
+.boxDestaqueTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -16px;
+}
+
+.priceTitle {
+    margin-top: 89px;
+    gap: 8px;
+}
+.priceTitle h4 {
+    font-size: 30px;
+    font-weight: 500;
+}
+.priceTitle span {
+    font-weight: 900;
+    font-size: 30px;
+    font-style: italic;
+}
+
+#section3 .card {
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 30px;
+}
+#section3 .card .card-body ul li {
+    color: #717171;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 6px;
+}
+#section3 .fa-check-circle {
+    color: #3B5384;
+    font-size: 20px;
+}
+#section3 .fa-times-circle {
+    color: red;
+    font-size: 20px;
+    font-weight: 100;
+}
+.previousPrice {
+    color: #717171;
+    font-weight: 400;
+}
+.porPrice {
+    font-size: 40px;
+    color: #3B5384;
+    font-weight: 900;
+    line-height: 48px;
+}
+.porPriceDestaque {
+    font-size: 40px;
+    color: #80B049;
+    font-weight: 900;
+}
+.economizeDestaque {
+    color: #3B5186;
+    font-size: 16px;
+    font-weight: 900;
+}
+.modeloConsulta {
+    font-weight: 900;
+    color: #000;
+    margin-top: 32px;
+}
+
+button.comprarBtn {
+    background: #FFFFFF;
+    border: 1px solid #3B5186;
+    border-radius: 16px;
+    text-transform: uppercase;
+    margin-top: 83px;
+    margin-bottom: -42px;
+    padding: 14px 30px;
+    color: #3B5186;
+    letter-spacing: 0.2em;
+}
+button.comprarBtn:hover {
+    background: #3B5186;
+    color: #FFFFFF;
+    font-weight: 900;
+}
+
+button.comprarBtnDestaque {
+    background: #3B5186;
+    border: 1px solid #3B5186;
+    border-radius: 16px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: -42px;
+    padding: 14px 30px;
+    color: #FFFFFF;
+    font-weight: 900;
+    letter-spacing: 0.2em;
+}
+button.comprarBtnDestaque:hover {
+    background: #3B5186;
+    color: #FFFFFF;
+}
+.facheck {
+    color: #80B049 !important;
+}
+
+.header-card {
+    background: #80B049 !important;
+    color: #FFFFFF !important;
+    border-radius: 30px 30px 0 0;
+}
+
+.saibaMais {
+    color: #717171;
+    font-weight: 900;
+    font-size: 18px;
+    text-decoration: underline;
+    margin:82px;
+}
+
+.card-body {
+    height: 757px;
+}
+
+
+/* section 2 mobile */
+@media (max-width:767px) {
+    #section2 {
+        margin: 0 10px;
+    } .containerTitles {
+        font-size: 14px;
+    } .containerdescription {
+        font-size: 20px;
+    } .modeloCarro {
+        font-size: 20px;
+    } .card {
+        margin: 30px 0;
+    }
+}

@@ -1,0 +1,237 @@
+/* banner */
+.sectionFaq {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 14.4%, rgba(0, 0, 0, 0) 100%),url("/assets/img/banners/banner-consultav6.png");
+    background-repeat: no-repeat;
+    height: 391px;
+    margin-top: 64px;
+    background-position-x: center;
+}
+.bannerv8 {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 14.4%, rgba(0, 0, 0, 0) 100%),url("/assets/img/banners/banner-consultav8.png");
+    background-repeat: no-repeat;
+    height: 391px;
+    margin-top: 64px;
+    background-position-x: center;
+}
+.bannerv12 {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 14.4%, rgba(0, 0, 0, 0) 100%),url("/assets/img/banners/banner-consultav12.png");
+    background-repeat: no-repeat;
+    height: 391px;
+    margin-top: 64px;
+    background-position-x: center;
+}
+.debitosBanner {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 14.4%, rgba(0, 0, 0, 0) 100%),url("/assets/img/banners/debitos-banner.png");
+    background-repeat: no-repeat;
+    height: 391px;
+    margin-top: 64px;
+    background-position-x: center;
+}
+.sectionFaq h1 {
+    color: #FFFFFF;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.sectionFaq h2 {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+#sections h1 {
+    color: #3B5384;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+}
+#sections h2 {
+    color: #3B5384;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px;
+}
+#sections h3 {
+    color: #2B2B2B;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 19px;
+}
+#sections p {
+    color: #767676;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+#sections li{
+    color: #767676;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+#sections .link {
+    color: #007895;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px 0;
+    padding-top: 20px;
+}
+
+#sections span {
+    color: #2B2B2B;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+
+
+
+
+/* slide section 2 */
+  
+
+
+.swiper {
+    width: 90% !important;
+    height: 460px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.swiper-button-next, .swiper-button-prev {
+    color: #3B5384 !important;
+    background: #FFFFFF;
+    border: 1px solid rgba(220, 220, 235, 0.5);
+    box-shadow: 0px 17px 30px rgba(59, 83, 132, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 20px;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+        font-size: 14px !important;
+}
+.swiper-button-next, .swiper-button-prev {
+    top: var(--swiper-navigation-top-offset,40%) !important;
+}
+.swiper-button-prev {
+    left:var(--swiper-navigation-sides-offset,0px) !important
+}
+.swiper-button-next {
+    right: var(--swiper-navigation-sides-offset,0px) !important;
+}
+.pad15{
+    height: 360px !important;
+    background: #FFFFFF !important;
+    border: 1px solid #DCDCEB !important;
+    box-shadow: 0px 17px 50px rgba(143, 144, 166, 0.15);
+    border-radius: 16px !important;
+    padding: 20px;
+    align-items: center;
+}
+
+p.lead {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+
+}
+p.text {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #717171;
+    text-align: center;
+}
+
+
+/* end of slide section 2 */
+
+.pesquisaPlaca{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.placaInput {
+    padding: 20px;
+    margin-top: 32px;
+    border: 1px solid #DCDCEB;
+    border-radius: 16px;
+    box-shadow: 0px 30px 60px -15px rgba(59, 83, 132, 0.25);
+    backdrop-filter: blur(10px);    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 34vw;
+    height: 6vw;
+}
+.placaInputStyle::placeholder {
+    color: #2B2B2B;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    margin-top: 10px;
+}
+.placaInput i {
+    background-color: #80B049;
+    padding: 16px;
+    color: #FFF;
+    border-radius: 16px;
+}
+.pesquisaPlaca h2{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.pesquisaPlaca input {
+    border: none;
+} 
+/* section 1 mobile */
+@media (max-width:767px) {
+    .sectionFaq {
+      background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 14.4%, rgba(0, 0, 0, 0) 100%),url("/assets/img/banners/banner-consultav6-mobile.png");
+      background-position-x: center;
+      margin-top: 20px;
+      background-repeat: no-repeat;
+    } .sectionFaq h1 {
+      font-size: 22px;
+      line-height: 31px;
+    } .sectionFaq h2 {
+      font-size: 14px;
+      line-height: 24px;
+    } .bannerv8 {
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 14.4%, rgba(0, 0, 0, 0) 100%),url("/assets/img/banners/banner-consultav8-mobile.png");
+        background-position-x: center;
+        margin-top: 20px;
+        background-repeat: no-repeat;
+      } .bannerv12 {
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 14.4%, rgba(0, 0, 0, 0) 100%),url("/assets/img/banners/banner-consultav12-mobile.png");
+        background-position-x: center;
+        margin-top: 20px;
+        background-repeat: no-repeat;
+      } 
+  }
+
+
+  /* slide mobile - section 2*/
+ @media (max-width:767px) {
+    .swiper-slide {
+        padding: 30px;
+    } .swiper-button-next, .swiper-button-prev {
+        top: var(--swiper-navigation-top-offset,45%) !important;
+    }
+}
+
+
+/* sections */
+
+@media (max-width:767px) {
+    #sections h1 {
+        font-size: 20px;
+    }
+}

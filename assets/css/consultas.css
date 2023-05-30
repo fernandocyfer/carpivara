@@ -1,0 +1,397 @@
+/* banner */
+.sectionFaq {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 14.4%, rgba(0, 0, 0, 0) 100%),url("/assets/img/banners/consultas-banner.png");
+    background-repeat: no-repeat;
+    height: 391px;
+    margin-top: 64px;
+    background-position-x: center;
+}
+.sectionFaq h1 {
+    color: #FFFFFF;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.sectionFaq h2 {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+/* banner */
+
+/* section 2 planos */
+
+.containerTitles {
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 2px;
+    color: #717171;
+    text-transform: uppercase;
+    margin-top: 64px;
+}
+.containerdescription {
+    color: #3B5384;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 36px;
+    text-align: center;
+}
+
+.priceTitleDestaque {
+    margin-top: 26px;
+    gap: 8px;
+}
+.priceTitleDestaque h4 {
+    font-size: 30px;
+    font-weight: 500;
+}
+.priceTitleDestaque span {
+    font-weight: 900;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.priceTitleDestaque .iconDestaque {
+    content:url(/assets/img/icons/destaque-icon.svg);
+}
+
+.boxDestaqueTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -16px;
+}
+
+.priceTitle {
+    margin-top: 89px;
+    gap: 8px;
+}
+.priceTitle h4 {
+    font-size: 30px;
+    font-weight: 500;
+}
+.priceTitle span {
+    font-weight: 900;
+    font-size: 30px;
+    font-style: italic;
+}
+
+#section4 .card {
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 30px;
+}
+#section4 .card .card-body ul li {
+    color: #717171;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 6px;
+}
+#section4 .fa-check-circle {
+    color: #3B5384;
+    font-size: 20px;
+}
+#section4 .fa-times-circle {
+    color: red;
+    font-size: 20px;
+    font-weight: 100;
+}
+.previousPrice {
+    color: #717171;
+    font-weight: 400;
+}
+.porPrice {
+    font-size: 40px;
+    color: #3B5384;
+    font-weight: 900;
+    line-height: 48px;
+}
+.porPriceDestaque {
+    font-size: 40px;
+    color: #80B049;
+    font-weight: 900;
+}
+.economizeDestaque {
+    color: #3B5186;
+    font-size: 16px;
+    font-weight: 900;
+}
+.modeloConsulta {
+    font-weight: 900;
+    color: #000;
+    margin-top: 32px;
+}
+
+button.comprarBtn {
+    background: #FFFFFF;
+    border: 1px solid #3B5186;
+    border-radius: 16px;
+    text-transform: uppercase;
+    margin-top: 83px;
+    margin-bottom: -42px;
+    padding: 14px 30px;
+    color: #3B5186;
+    letter-spacing: 0.2em;
+}
+button.comprarBtn:hover {
+    background: #3B5186;
+    color: #FFFFFF;
+    font-weight: 900;
+}
+
+button.comprarBtnDestaque {
+    background: #3B5186;
+    border: 1px solid #3B5186;
+    border-radius: 16px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: -42px;
+    padding: 14px 30px;
+    color: #FFFFFF;
+    font-weight: 900;
+    letter-spacing: 0.2em;
+}
+button.comprarBtnDestaque:hover {
+    background: #3B5186;
+    color: #FFFFFF;
+}
+.facheck {
+    color: #80B049 !important;
+}
+.facheck2 {
+    color: #3B5286;
+}
+.facheck3 {
+    color: #D80F0F;
+}
+
+.header-card {
+    background: #80B049 !important;
+    color: #FFFFFF !important;
+    border-radius: 30px 30px 0 0;
+}
+
+.saibaMais {
+    color: #717171;
+    font-weight: 900;
+    font-size: 18px;
+    text-decoration: underline;
+    margin:82px;
+}
+
+/* section 2 planos */
+
+table {
+    border-collapse: collapse;
+}
+
+.table thead tr th{
+    border-bottom-left-radius: 40px !important;
+}
+
+.table thead:first-child {
+    border-bottom-width: 8px !important;
+}
+.table>:not(caption)>*>* {
+    padding: 1.5rem !important;
+}
+.scopeCol1 {
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 16px;
+    color: #2B2B2B;
+    border-bottom: 8px solid #2B2B2B !important;
+}
+.scopeCol2 {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 16px;
+    color: #80B049;
+    border-bottom: 8px solid #80B049 !important;
+}
+.scopeCol3 {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 16px;
+    color: #3B5384;
+    border-bottom: 8px solid #3B5384 !important;
+}
+.scopeCol4 {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 16px;
+    color: #DAB44B;
+    border-bottom: 8px solid #DAB44B !important;
+}
+.tableThTitle {
+    color: #767676 !important;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.saibaMaisTabela {
+    color: #767676;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 22px;
+    text-decoration: underline;
+}
+.passosBox {
+    display: flex;
+    gap: 30px;
+    border: 1px solid #DDDDDD;
+    border-radius: 30px;
+    padding: 30px;
+}
+.numberDestaque {
+    color: #80B049;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+}
+.textDestaque {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+/* section 1 mobile */
+@media (max-width:767px) {
+    .sectionFaq {
+      background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 14.4%, rgba(0, 0, 0, 0) 100%),url("/assets/img/banners/consultas-banner-mobile.png");
+      background-position-x: center;
+      margin-top: 20px;
+      background-repeat: no-repeat;
+    } .sectionFaq h1 {
+      font-size: 22px;
+      line-height: 31px;
+    } .sectionFaq h2 {
+      font-size: 14px;
+      line-height: 24px;
+    }
+  }
+
+/* section 3 */
+@media (max-width:767px) {
+    #section3 {
+        margin-top: 300px;
+    } .containerTitles {
+        font-size: 14px;
+    } .containerdescription {
+        font-size: 20px;
+        line-height: 24px;
+    } #section3 .description {
+        font-size: 14px;
+        line-height: 24px;
+    } .buttonStyle1 {
+        margin: 30px 0;
+        padding:16px;
+    } .buttonStyle1 a {
+        font-size: 12px;
+    }
+}
+
+/* tabela */
+@media (max-width:767px){
+    table {
+        display: none;
+    }
+}
+
+/*  */
+
+@media (min-width:767px){
+    #section5Mobile {
+        display: none;
+    }
+}
+button.btmMobile1 {
+    color: #80B049;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 900;
+}
+button.btmMobile2 {
+    color: #3B5384;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 900;
+}
+button.btmMobile3 {
+    color: #DAB44B;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 900;
+}
+#headingOne {
+    border-bottom: 10px solid #80B049;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#headingTwo {
+    border-bottom: 10px solid #3B5384;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#headingThree {
+    border-bottom: 10px solid #DAB44B;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#section5Mobile .card {
+    border-radius: 12px;
+    margin-bottom: 16px;
+} 
+
+.menu {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.menu-item {
+    border-bottom: 1px solid #DDDDDD;  
+    padding: 16px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #767676;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.menu-item .check-icon {
+  margin-right: 10px;
+}
+
+/* passos */
+
+@media (max-width:767px){
+    .containerBox {
+        flex-direction: column;
+    }.passosBox {
+        width: 100% !important;
+        flex-direction: column;
+        gap: 0;
+    }.passosBox img {
+        margin-top: -30%;
+    }
+}
