@@ -76,7 +76,6 @@
   }
   
   .menu li.active {
-    /* background-color: #ccc; */
     border-bottom: 4px solid #80B049;
   }
   
@@ -134,7 +133,7 @@
     font-weight: 400;
 }
 .accordion-button::after {
-    background-image: url(/site/assets/img/icons/faq-icon.svg) !important;
+    background-image: url(/assets/img/icons/faq-icon.svg) !important;
 }
 
 /*  */
