@@ -277,10 +277,6 @@ button.comprarBtnDestaque:hover {
     margin:82px;
 }
 
-.card-body {
-    height: 757px;
-}
-
 
 /* section 2 mobile */
 @media (max-width:767px) {
