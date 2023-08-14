@@ -119,6 +119,9 @@
     border-radius: 20px;
     padding: 10px 20px;
 }
+.dadosBoxpg ul {
+    width: 200px;
+}
 .dadosBox ul li {
     font-size: 12px;
     color: #767676;
@@ -127,8 +130,137 @@
 .dadosBox ul li:first-child {
     font-weight: 600;
 }
+#resumoSection .btn{
+    border-radius: 16px;
+    background-color: #3B5186;
+    font-weight: 900;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 30px 85px;
+}
+
+/*  */
+#resumoSection {
+    background-color: #F9F9F9;
+    padding-bottom: 47px;
+}
+#resumoSection h3 {
+    color:#3B5384;
+    font-size: 2rem;
+}
+#resumoSection h4 {
+    color:#2B2B2B;
+    font-size: 1rem;
+    text-transform: uppercase;
+
+}
+#resumoSection p {
+    color:#767676;
+    font-size:0.875;
+    padding-bottom: 8px;
+    max-width: 467px;
+}
+#resumoSection #result {
+    color:#767676;
+    font-size: 1rem;
+}
+
+.inputCupom {
+    max-width: 400px;
+    height: 84px;
+    display: grid;
+    background-color: #FFF;
+    border-radius: 10px;
+    border: 1px solid #DDD;
+    padding: 18px 24px;
+    margin-bottom: 16px;
+}
+.inputCupom a {
+    font-size: 0.75rem;
+    color: #767676 !important;
+    font-weight: 600;
+}
+.inputCupom input {
+    border: none;
+}
+#noticeBox {
+    background-color: #F9F9F9;
+    padding-bottom: 96px;
+}
+.avisoBox {
+    background: #F0FFDE;
+    border: 2px solid #80B049;
+    border-radius: 20px;
+}
+.avisoBox p {
+    color: #3B5384;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    padding: 60px 40px;
+}
+.infoUser h3 {
+    color: #2B2B2B;
+    font-size: 1.5rem;
+}
+.infoUser p {
+    color: #767676;
+    font-size: 1rem;
+}
+
+.formItens {
+    border: 1px solid #DDDDDD;
+    border-radius: 20px;
+    padding: 10px 24px;
+}
+.formItens label {
+    font-size: 12px;
+    font-weight: 700;
+    color: #767676;
+    text-transform: uppercase;
+    margin-left: 12px;
+}
+.buttonForm {
+    background-color: #80B049;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 16px 50px;
+    border-radius: 16px;
+    border: none;
+}
+.paymentsMethods {
+    background-color: #F9F9F9;
+}
+.paymentsMethods h3 {
+    font-size: 1.5rem;
+    color: #2B2B2B;
+    max-width: 469px;
+}
+.paymentsMethods .formPay {
+    background-color: #FFFFFF;
+    padding: 10px 24px;
+    border-radius: 8px;
+    border: 1px solid #DDD;
+}
+.paymentsMethods .formPay select {
+    border: none;
+    padding: 0;
+    width: 100%;
+}
+.paymentSelected .formItens .custom-select {
+    border: none;
+    padding: 8px;
+    width: 100%;
+}
 
 
+/*  */
 
 
 
