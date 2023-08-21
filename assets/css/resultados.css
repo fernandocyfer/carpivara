@@ -117,10 +117,11 @@
     list-style: none;
     border: 1px solid #DDDDDD;
     border-radius: 20px;
-    padding: 10px 20px;
+    padding: 14px 20px;
 }
 .dadosBoxpg ul {
     width: 200px;
+    background-color: #FFFFFF;
 }
 .dadosBox ul li {
     font-size: 12px;
@@ -258,169 +259,222 @@
     padding: 8px;
     width: 100%;
 }
+.boxIcons{
+    margin-top: 64px;
+}
+.boxIcons a {
+    color: #2B2B2B;
+    font-size: 0.75rem;
+    text-decoration: none;
+    line-height: 23px;
+    padding-top: 16px;
 
+}
 
 /*  */
 
 
+/* slide section 2 */
+  
 
-
-/* section 3 */
-
-.priceTitleDestaque {
-    margin-top: 26px;
-    gap: 8px;
+.mySwiper2 {
+    text-align: center;
 }
-.priceTitleDestaque h4 {
-    font-size: 30px;
-    font-weight: 500;
-}
-.priceTitleDestaque span {
-    font-weight: 900;
-    font-size: 30px;
-    font-style: italic;
-}
-
-.priceTitleDestaque .iconDestaque {
-    content:url(/assets/img/icons/destaque-icon.svg);
-}
-
-.boxDestaqueTitle {
+.mySwiper2 .swiper-wrapper{
     display: flex;
-    flex-direction: column;
+}
+.mySwiper2 .swiper-slide {
+    box-shadow: 0px 17px 50px 0px rgba(143, 144, 166, 0.15);
+    border-radius: 20px;
+    border: 1px solid #DCDCEB;
+    padding: 32px;
+    height: 214px;
+    width: 227px;
+}
+.mySwiper2 .swiper-slide img {
+    padding-bottom: 16px;
+}
+.swiper-button-next, .swiper-button-prev {
+    color: #3B5384 !important;
+    background: #FFFFFF;
+    border: 1px solid rgba(220, 220, 235, 0.5);
+    box-shadow: 0px 17px 30px rgba(59, 83, 132, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 20px;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+        font-size: 14px !important;
+}
+.swiper-button-prev {
+    left:var(--swiper-navigation-sides-offset,0px) !important
+}
+.swiper-button-next {
+    right: var(--swiper-navigation-sides-offset,0px) !important;
+}
+p.lead {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #767676;
+}
+p.fiqueAtento{
+    color: #F4D538;
+    line-height: 22px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+p.tudoOK{
+    color: #80B049;
+    line-height: 22px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+p.problema{
+    color: #D80F0F;
+    line-height: 22px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+/* Primeiro bloco de informações */
+.infosUm .accordion .accordion-header h3 {
+    color: #2B2B2B;
+    font-weight: 700;
+    font-size: 1rem;
+    padding-left: 20px;
+}
+.infosUm .accordion .accordion-header button{
+    background-color: #FFFFFF;
+    padding: 40px;
+    box-shadow: none;
+}
+.infosUm .accordion .accordion-body{
+    padding: 50px;
+    font-size: 0.875rem;
+}
+.infosUm .accordion .accordion-body h4{
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    color: #2B2B2B;
+    font-weight: 600;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #DDD;
+}
+.accordion-body tbody td{
+    color: #767676 !important;
+    font-weight: 500;
+    line-height: 16px;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+}
+.accordion-body tbody .resultTable{
+    color: #2b2b2b !important;
+    font-weight: 400;
+    line-height: 16px;
+    font-size: 0.875rem
+}
+.accordion-body .table tr{
+    border: 1px solid #DDD;
+}
+.accordion-body .table tr td{
+    border: 1px solid #DDD;
+    padding: 22px 30px;
+
+}
+.infosDois table .tituloColSpan {
+    font-size: 1rem;
+    padding: 20px;
+    text-transform: uppercase;
+    color: #2B2B2B;
+}
+.borderTitulo {
+    border-bottom: 8px solid #3B5384 !important;
+}
+.scoreLeilaoAvisoDois {
+    background-color: #F4D538;
+    color: #FFFFFF;
+    width: 306px;
+    height: 380px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    top: -16px;
+    font-size: 9rem;
+    font-weight: 700;
 }
-
-.priceTitle {
-    margin-top: 89px;
-    gap: 8px;
+.leilaoRef {
+    color: #767676;
 }
-.priceTitle h4 {
-    font-size: 30px;
-    font-weight: 500;
-}
-.priceTitle span {
-    font-weight: 900;
-    font-size: 30px;
-    font-style: italic;
-}
-
-#section3 .card {
-    background: #FFFFFF;
-    border: 1px solid #DDDDDD;
-    border-radius: 30px;
-}
-#section3 .card .card-body ul li {
-    color: #717171;
+.leilaoRef {
+    max-width: 340px;
+    padding: 0 20px;
     font-size: 14px;
-    font-weight: 400;
-    line-height: 27px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin: 6px;
 }
-#section3 .fa-check-circle {
-    color: #3B5384;
-    font-size: 20px;
-}
-#section3 .fa-times-circle {
-    color: red;
-    font-size: 20px;
-    font-weight: 100;
-}
-.previousPrice {
-    color: #717171;
-    font-weight: 400;
-}
-.porPrice {
-    font-size: 40px;
-    color: #3B5384;
-    font-weight: 900;
-    line-height: 48px;
-}
-.porPriceDestaque {
-    font-size: 40px;
+.infosDois .colorUm {
     color: #80B049;
-    font-weight: 900;
+    font-weight: 700;
+    line-height: 22px;
+    font-size: 14px;
 }
-.economizeDestaque {
-    color: #3B5186;
-    font-size: 16px;
-    font-weight: 900;
+.infosDois .colorDois {
+    color: #F4D538;
+    font-weight: 700;
+    line-height: 22px;
+    font-size: 14px;
 }
-.modeloConsulta {
-    font-weight: 900;
-    color: #000;
-    margin-top: 32px;
+.infosDois .colorTres {
+    color: #F49238;
+    font-weight: 700;
+    line-height: 22px;
+    font-size: 14px;
 }
-
-button.comprarBtn {
-    background: #FFFFFF;
-    border: 1px solid #3B5186;
-    border-radius: 16px;
-    text-transform: uppercase;
-    margin-top: 83px;
-    margin-bottom: -42px;
-    padding: 14px 30px;
-    color: #3B5186;
-    letter-spacing: 0.2em;
-}
-button.comprarBtn:hover {
-    background: #3B5186;
-    color: #FFFFFF;
-    font-weight: 900;
+.infosDois .colorQuatro {
+    color: #F43838;
+    font-weight: 700;
+    line-height: 22px;
+    font-size: 14px;
 }
 
-button.comprarBtnDestaque {
-    background: #3B5186;
-    border: 1px solid #3B5186;
-    border-radius: 16px;
-    text-transform: uppercase;
-    margin-top: 40px;
-    margin-bottom: -42px;
-    padding: 14px 30px;
-    color: #FFFFFF;
-    font-weight: 900;
-    letter-spacing: 0.2em;
+.boxSeguros .row  {
+    border: 1px solid #DDD;
+    margin: auto;
+    height: 186px;
 }
-button.comprarBtnDestaque:hover {
-    background: #3B5186;
-    color: #FFFFFF;
+.boxSeguros span {
+    font-size: 2.5rem;
+    color: #80B049;
+    font-weight: 700;
 }
-.facheck {
-    color: #80B049 !important;
+.boxSeguros p {
+    color: #767676;
+    line-height: 22px;
+    font-weight: 300;
 }
-
-.header-card {
-    background: #80B049 !important;
-    color: #FFFFFF !important;
-    border-radius: 30px 30px 0 0;
+#collapseBoxThree td.debitoTotal {
+    color: #3B5384 !important;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.debitosAtivos .table thead {
+    border-bottom: 8px solid #3B5384;
 }
 
-.saibaMais {
-    color: #717171;
-    font-weight: 900;
-    font-size: 18px;
-    text-decoration: underline;
-    margin:82px;
-}
-
-
-/* section 2 mobile */
-@media (max-width:767px) {
-    #section2 {
-        margin: 0 10px;
-    } .containerTitles {
-        font-size: 14px;
-    } .containerdescription {
-        font-size: 20px;
-    } .modeloCarro {
-        font-size: 20px;
-    } .card {
-        margin: 30px 0;
+@media (max-width:768px){
+    .infosUm .accordion .accordion-body {
+        padding: 12px;
+    } .boxSeguros .row {
+        height: auto;
+    } .dadosBoxpg ul {
+        width: 312px;
+    } .accordion-body .table tr td {
+        padding: 24px;
+    } .scoreLeilaoAvisoDois {
+        width: inherit;
+        margin-bottom: 30px;
+    } #collapseBoxThree td.debitoTotal {
+        font-size: 1rem;
     }
 }
