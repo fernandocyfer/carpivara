@@ -1,11 +1,7 @@
-var swiper = new Swiper(".swiper", {
-    slidesPerView: 1,
-    spaceBetween: 0,
+var swiper = new Swiper(".mySwiper2", {
+    slidesPerView: 2,
+    spaceBetween: 10,
     loop: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
     breakpoints: {
       640: {
         slidesPerView: 2,
@@ -17,12 +13,11 @@ var swiper = new Swiper(".swiper", {
       },
       1024: {
         slidesPerView: 5,
-        spaceBetween: 10,
+        spaceBetween: 15,
       },
     },
-
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       }, 
-  });
+});

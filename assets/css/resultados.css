@@ -1,0 +1,480 @@
+/* steps */
+
+
+.vcv-timeline {
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 1020px !important;
+    margin: 0 auto;
+    padding: 40px 10px;
+    list-style-type: none;
+    color: #a7a7a7;
+}
+.vcv-timeline-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 0 auto;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 500;
+}
+.vcv-timeline-item span {
+    color: #2b2b2b;
+}
+.vcv-timeline-item::before, .vcv-timeline-item::after {
+    content: '';
+}
+.vcv-timeline-item::before {
+    content: attr(data-step);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 27px;
+    height: 27px;
+    margin: 0 10px 0 0;
+    border-radius: 50%;
+    border: 2px solid #767676;
+    color: #FFFFFF;
+    background-color: #767676;
+}
+.vcv-timeline-item::after {
+    height: 2px;
+    background: #a7a7a7;
+    width: 40%;
+    margin: 0 10px;
+}
+.vcv-timeline-item:last-of-type {
+    flex: 0 0 150px;
+}
+.vcv-timeline-item:last-of-type::after {
+    display: none;
+}
+.vcv-timeline-item.vcv-step-done::before {
+    content: '';
+    border-color: #aace35;
+    background: #aace35 url("data:image/svg+xml,%0A%3Csvg width='14px' height='11px' viewBox='0 0 14 11' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Activation-Theme-to-Premium' transform='translate(-827.000000, -183.000000)' fill='%23FFFFFF' fill-rule='nonzero'%3E%3Cg id='Activation-02' transform='translate(342.000000, 172.000000)'%3E%3Cg id='Navigation' transform='translate(44.000000, 0.000000)'%3E%3Cg id='check' transform='translate(441.000000, 11.000000)'%3E%3Cpolygon id='Path' points='11.8606017 0 4.86058121 6.82615443 2.13952103 4.17292819 0 6.25973131 4.8606221 11 14 2.08684301'%3E%3C/polygon%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E") no-repeat center;
+    background-size: 40%;
+}
+.vcv-timeline-item.vcv-step-done::after {
+    background: #aace35;
+}
+@media screen and (max-width: 768px) {
+    .vcv-timeline {
+        margin-bottom: 50px;
+   }
+    .vcv-timeline-item {
+        position: relative;
+   }
+    .vcv-timeline-item span {
+        text-align: left;
+        margin: 10px 0 0;
+        position: absolute;
+        top: 30px;
+        width: 100%;
+        left: 2px;
+        display: none;
+   }
+    .vcv-timeline-item:last-of-type {
+        flex: 0 0 auto;
+        margin: 0 30px 0 0;
+   }
+    .vcv-timeline-item::before {
+        margin: 0;
+   }
+    .vcv-timeline-item::after {
+        flex: 0 1 auto;
+   }
+}
+
+
+
+.containerTitles {
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 2px;
+    color: #717171;
+    text-transform: uppercase;
+}
+.containerdescription {
+    color: #3B5384;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 36px;
+    text-align: center;
+}
+
+/* section 2 */
+#section2 {
+    margin: 80px 10px;
+}
+.modeloCarro {
+    font-size: 32px;
+    font-weight: 500;
+}
+.dadosBox ul {
+    list-style: none;
+    border: 1px solid #DDDDDD;
+    border-radius: 20px;
+    padding: 14px 20px;
+}
+.dadosBoxpg ul {
+    width: 200px;
+    background-color: #FFFFFF;
+}
+.dadosBox ul li {
+    font-size: 12px;
+    color: #767676;
+    text-transform: uppercase;
+}
+.dadosBox ul li:first-child {
+    font-weight: 600;
+}
+#resumoSection .btn{
+    border-radius: 16px;
+    background-color: #3B5186;
+    font-weight: 900;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 30px 85px;
+}
+
+/*  */
+#resumoSection {
+    background-color: #F9F9F9;
+    padding-bottom: 47px;
+}
+#resumoSection h3 {
+    color:#3B5384;
+    font-size: 2rem;
+}
+#resumoSection h4 {
+    color:#2B2B2B;
+    font-size: 1rem;
+    text-transform: uppercase;
+
+}
+#resumoSection p {
+    color:#767676;
+    font-size:0.875;
+    padding-bottom: 8px;
+    max-width: 467px;
+}
+#resumoSection #result {
+    color:#767676;
+    font-size: 1rem;
+}
+
+.inputCupom {
+    max-width: 400px;
+    height: 84px;
+    display: grid;
+    background-color: #FFF;
+    border-radius: 10px;
+    border: 1px solid #DDD;
+    padding: 18px 24px;
+    margin-bottom: 16px;
+}
+.inputCupom a {
+    font-size: 0.75rem;
+    color: #767676 !important;
+    font-weight: 600;
+}
+.inputCupom input {
+    border: none;
+}
+#noticeBox {
+    background-color: #F9F9F9;
+    padding-bottom: 96px;
+}
+.avisoBox {
+    background: #F0FFDE;
+    border: 2px solid #80B049;
+    border-radius: 20px;
+}
+.avisoBox p {
+    color: #3B5384;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    padding: 60px 40px;
+}
+.infoUser h3 {
+    color: #2B2B2B;
+    font-size: 1.5rem;
+}
+.infoUser p {
+    color: #767676;
+    font-size: 1rem;
+}
+
+.formItens {
+    border: 1px solid #DDDDDD;
+    border-radius: 20px;
+    padding: 10px 24px;
+}
+.formItens label {
+    font-size: 12px;
+    font-weight: 700;
+    color: #767676;
+    text-transform: uppercase;
+    margin-left: 12px;
+}
+.buttonForm {
+    background-color: #80B049;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 16px 50px;
+    border-radius: 16px;
+    border: none;
+}
+.paymentsMethods {
+    background-color: #F9F9F9;
+}
+.paymentsMethods h3 {
+    font-size: 1.5rem;
+    color: #2B2B2B;
+    max-width: 469px;
+}
+.paymentsMethods .formPay {
+    background-color: #FFFFFF;
+    padding: 10px 24px;
+    border-radius: 8px;
+    border: 1px solid #DDD;
+}
+.paymentsMethods .formPay select {
+    border: none;
+    padding: 0;
+    width: 100%;
+}
+.paymentSelected .formItens .custom-select {
+    border: none;
+    padding: 8px;
+    width: 100%;
+}
+.boxIcons{
+    margin-top: 64px;
+}
+.boxIcons a {
+    color: #2B2B2B;
+    font-size: 0.75rem;
+    text-decoration: none;
+    line-height: 23px;
+    padding-top: 16px;
+
+}
+
+/*  */
+
+
+/* slide section 2 */
+  
+
+.mySwiper2 {
+    text-align: center;
+}
+.mySwiper2 .swiper-wrapper{
+    display: flex;
+}
+.mySwiper2 .swiper-slide {
+    box-shadow: 0px 17px 50px 0px rgba(143, 144, 166, 0.15);
+    border-radius: 20px;
+    border: 1px solid #DCDCEB;
+    padding: 32px;
+    height: 214px;
+    width: 227px;
+}
+.mySwiper2 .swiper-slide img {
+    padding-bottom: 16px;
+}
+.swiper-button-next, .swiper-button-prev {
+    color: #3B5384 !important;
+    background: #FFFFFF;
+    border: 1px solid rgba(220, 220, 235, 0.5);
+    box-shadow: 0px 17px 30px rgba(59, 83, 132, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 20px;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+        font-size: 14px !important;
+}
+.swiper-button-prev {
+    left:var(--swiper-navigation-sides-offset,0px) !important
+}
+.swiper-button-next {
+    right: var(--swiper-navigation-sides-offset,0px) !important;
+}
+p.lead {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #767676;
+}
+p.fiqueAtento{
+    color: #F4D538;
+    line-height: 22px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+p.tudoOK{
+    color: #80B049;
+    line-height: 22px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+p.problema{
+    color: #D80F0F;
+    line-height: 22px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+/* Primeiro bloco de informações */
+.infosUm .accordion .accordion-header h3 {
+    color: #2B2B2B;
+    font-weight: 700;
+    font-size: 1rem;
+    padding-left: 20px;
+}
+.infosUm .accordion .accordion-header button{
+    background-color: #FFFFFF;
+    padding: 40px;
+    box-shadow: none;
+}
+.infosUm .accordion .accordion-body{
+    padding: 50px;
+    font-size: 0.875rem;
+}
+.infosUm .accordion .accordion-body h4{
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    color: #2B2B2B;
+    font-weight: 600;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #DDD;
+}
+.accordion-body tbody td{
+    color: #767676 !important;
+    font-weight: 500;
+    line-height: 16px;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+}
+.accordion-body tbody .resultTable{
+    color: #2b2b2b !important;
+    font-weight: 400;
+    line-height: 16px;
+    font-size: 0.875rem
+}
+.accordion-body .table tr{
+    border: 1px solid #DDD;
+}
+.accordion-body .table tr td{
+    border: 1px solid #DDD;
+    padding: 22px 30px;
+
+}
+.infosDois table .tituloColSpan {
+    font-size: 1rem;
+    padding: 20px;
+    text-transform: uppercase;
+    color: #2B2B2B;
+}
+.borderTitulo {
+    border-bottom: 8px solid #3B5384 !important;
+}
+.scoreLeilaoAvisoDois {
+    background-color: #F4D538;
+    color: #FFFFFF;
+    width: 306px;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9rem;
+    font-weight: 700;
+}
+.leilaoRef {
+    color: #767676;
+}
+.leilaoRef {
+    max-width: 340px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+.infosDois .colorUm {
+    color: #80B049;
+    font-weight: 700;
+    line-height: 22px;
+    font-size: 14px;
+}
+.infosDois .colorDois {
+    color: #F4D538;
+    font-weight: 700;
+    line-height: 22px;
+    font-size: 14px;
+}
+.infosDois .colorTres {
+    color: #F49238;
+    font-weight: 700;
+    line-height: 22px;
+    font-size: 14px;
+}
+.infosDois .colorQuatro {
+    color: #F43838;
+    font-weight: 700;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.boxSeguros .row  {
+    border: 1px solid #DDD;
+    margin: auto;
+    height: 186px;
+}
+.boxSeguros span {
+    font-size: 2.5rem;
+    color: #80B049;
+    font-weight: 700;
+}
+.boxSeguros p {
+    color: #767676;
+    line-height: 22px;
+    font-weight: 300;
+}
+#collapseBoxThree td.debitoTotal {
+    color: #3B5384 !important;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.debitosAtivos .table thead {
+    border-bottom: 8px solid #3B5384;
+}
+
+@media (max-width:768px){
+    .infosUm .accordion .accordion-body {
+        padding: 12px;
+    } .boxSeguros .row {
+        height: auto;
+    } .dadosBoxpg ul {
+        width: 312px;
+    } .accordion-body .table tr td {
+        padding: 24px;
+    } .scoreLeilaoAvisoDois {
+        width: inherit;
+        margin-bottom: 30px;
+    } #collapseBoxThree td.debitoTotal {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,1188 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="assets/img/logos/favicon.ico" type="image/x-icon">
+    <title>Carpivara - Resultado da consulta</title>
+    <meta name="description" content="Carpivara Consulta Veicular">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="consulta veicular pela placa, dados veiculares pela placa, consultar leilao veicular, buscar renavam pela placa, consultar renavam pela placa">
+
+    <link rel="stylesheet" href="/assets/css/globals.css" />
+    <link rel="stylesheet" href="/assets/css/resultados.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+</head>
+    <body>
+                <!--navbar-->
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container">
+                      <a class="navbar-brand" href="#">
+                        <img
+                        src="assets/img/logos/Logo.png"
+                        alt="Carpivara Logo"
+                        width="201px"
+                        height="71px"
+                        />
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-menus" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-menus" href="#">Sobre Nós</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-menus" href="#">Consultas</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-menus" href="#">Blog</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-menus" href="#">Contato</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-menus" href="#">Faq</a>
+                          </li>
+                          <li class="nav-item">
+                            <button class="contatoBtn">
+                                <img 
+                                src="assets/img/icons/login-icon.svg"
+                                />
+                                Entrar
+                            </button>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+                  <!--end navbar-->
+        
+                <!-- section 1 steps -->
+                <section>
+                    <div class="container">
+                        <div class="row">
+                            <ul class="vcv-timeline">
+                                <li class="vcv-timeline-item vcv-step-done" data-step="1" data-step-title="Download"><span>Resumo da consultas</span></li>
+                                <li class="vcv-timeline-item vcv-step-done" data-step="2"><span>Selecione o plano</span></li>
+                                <li class="vcv-timeline-item vcv-step-done" data-step="3"><span>Pagamento</span></li>
+                                <li class="vcv-timeline-item vcv-step-done" data-step="4"><span>Consulta completa</span></li>
+                            </ul>
+                        </div>
+                        <h3 class="containerTitles text-center">Resumo da consulta</h3>
+                        <h2 class="containerdescription mb-5">Informações encontradas com sucesso</h2>
+                    </div>
+                </section>
+                <!-- end section 1 steps -->
+        
+                <!-- resumo -->
+                <section id="resumoSection">
+                    <div class="container">
+                        <div class="row flex-column flex-lg-row">
+                            <div class="col-12 col-lg-6">
+                                <h3 class="my-5 pt-5 titleSection" id="tipoConsulta">Sua consulta</h3>
+                                <p class="">
+                                    * A utilização dos dados contidos nesta consulta é de total responsabilidade do comprador, 
+                                    conforme TERMOS & CONDIÇÕES DE USO aceito no momento da finalização da compra.
+                                </p>
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h4>código da consulta</h4>
+                                        <span id="result">0123456</span>
+                                    </div>
+                                    <div class="col-4">
+                                        <h4>tipo da consulta</h4>
+                                        <span id="result">Consulta</span>
+                                    </div>
+                                </div>
+                               <div class="pt-5 pb-4">
+                                <h4>Data de registro</h4>
+                                <span id="result">01/01/2023 00:00:00</span>
+                               </div>
+                                
+                                    <div class="row">
+                                        <div class="col-3 text-center">
+                                           <div class="boxIcons d-flex flex-column justify-content-center align-items-center">
+                                                <img 
+                                                src="assets/img/icons/pdf-icon.svg"
+                                                width="44"
+                                                height="44"
+                                                alt="carpivara icon"
+                                                />
+                                                <a href="">Baixar<br> arquivo PDF</a>
+                                           </div>
+                                        </div>
+                                        <div class="col-3 text-center">
+                                            <div class="boxIcons d-flex flex-column justify-content-center align-items-center">
+                                                 <img 
+                                                 src="assets/img/icons/print-icon.svg"
+                                                 width="44"
+                                                 height="44"
+                                                 alt="carpivara icon"
+                                                 />
+                                                 <a href="">Imprimir<br> sua consulta</a>
+                                            </div>
+                                         </div>
+                                         <div class="col-3 text-center">
+                                            <div class="boxIcons d-flex flex-column justify-content-center align-items-center">
+                                                 <img 
+                                                 src="assets/img/icons/fast-mail-icon.svg"
+                                                 width="44"
+                                                 height="44"
+                                                 alt="carpivara icon"
+                                                 />
+                                                 <a href="">Receber<br> por e-mail</a>
+                                            </div>
+                                         </div>
+                                    </div>
+                                
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <h3 class="my-5 py-5">Resumo da consulta</h3>
+        
+                                <div class="col-12 align-items-center justify-content-center d-flex flex-column">
+                                    <div class="placaCarro">
+                                        <img
+                                            src="assets/img/icons/placa.png"
+                                            class="img-fluid"
+                                        />
+                                    </div>
+                                    <div class="mt-4">
+                                        <span class="modeloCarro">
+                                            Toyota - Fielder
+                                        </span>
+                                    </div>
+                                    <div class="dadosBox dadosBoxpg my-5">
+                                        <div class="row flex-md-row flex-column">
+                                            <div class="col-12 col-md-4">
+                                                <ul>
+                                                    <li>Ano Fab./Mod.</li>
+                                                    <li>2005 / 2005</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 col-md-4">
+                                                <ul>
+                                                    <li>Renavam</li>
+                                                    <li>000000000000</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 col-md-4">
+                                                <ul>
+                                                    <li>Chassi</li>
+                                                    <li>0000000000000000000</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="row flex-md-row flex-column">
+                                            <div class="col-12 col-md-4">
+                                                <ul>
+                                                    <li>Município / uf</li>
+                                                    <li>são paulo / sp</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 col-md-4">
+                                                <ul>
+                                                    <li>Recall</li>
+                                                    <li>Não encontrado</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 col-md-4">
+                                                <ul>
+                                                    <li>Histórico fipe</li>
+                                                    <li>2023 - R$30.500,00</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- fim resumo -->
+
+<!-- slide -->
+<section>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <p class="lead">Leilão / Remarketing</p>
+                        <img 
+                            src="/assets/img/icons/atento.svg"
+                            class=""
+                            width="64"
+                            height="64"
+                            alt="carpivara icon"
+                        />
+                        <p class="fiqueAtento">Fique Atento!</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p class="lead">Registro Roubo / Furto</p>
+                        <img 
+                            src="/assets/img/icons/atento.svg"
+                            class=""
+                            width="64"
+                            height="64"
+                            alt="carpivara icon"
+                        />
+                        <p class="fiqueAtento">Fique Atento!</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p class="lead">Restrições</p>
+                        <img 
+                            src="/assets/img/icons/tudoOK.svg"
+                            class=""
+                            width="64"
+                            height="64"
+                            alt="carpivara icon"
+                        />
+                        <p class="tudoOK">Tudo OK</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p class="lead">Recall</p>
+                        <img 
+                            src="/assets/img/icons/problema.svg"
+                            class=""
+                            width="64"
+                            height="64"
+                            alt="carpivara icon"
+                        />
+                        <p class="problema">Possui Problemas</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p class="lead">Indício de sinistro</p>
+                        <img 
+                            src="/assets/img/icons/tudoOK.svg"
+                            class=""
+                            width="64"
+                            height="64"
+                            alt="carpivara icon"
+                        />
+                        <p class="tudoOK">Tudo OK</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p class="lead">Débitos</p>
+                        <img 
+                            src="/assets/img/icons/atento.svg"
+                            class=""
+                            width="64"
+                            height="64"
+                            alt="carpivara icon"
+                        />
+                        <p class="fiqueAtento">Fique Atento!</p>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- fim slide -->
+<!-- box infos 1 -->
+<section class="infosUm">
+    <div class="container mt-5 pt-5">
+        <div class="row">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBoxOne" aria-expanded="true" aria-controls="collapseBoxOne">
+                        <img
+                        src="assets/img/icons/car-icon.svg"
+                        width="48"
+                        height="48"
+                        >
+                        <h3 class="m-0">Dados sobre o veículo</h3>
+                    </button>
+                  </h2>
+                  <div id="collapseBoxOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-10 col-lg-6">
+                                <h4>Dados principais do veículo</h4>
+                                <table class="table mt-5">
+                                    <tbody>
+                                        <tr style="background-color: #F9F9F9;">
+                                            <td>Placa</td>
+                                            <td class="resultTable">fzw0z08</td>
+                                        </tr>
+                                        <tr style="background-color: #FFFFFF;">
+                                            <td>Renavam</td>
+                                            <td class="resultTable">00000000</td>
+                                        </tr>
+                                        <tr style="background-color: #F9F9F9;">
+                                            <td>Chassi</td>
+                                            <td class="resultTable">BR000000000000</td>
+                                        </tr>
+                                        <tr style="background-color: #FFFFFF;">
+                                            <td>Marca</td>
+                                            <td class="resultTable">Toyota</td>
+                                        </tr>
+                                        <tr style="background-color: #F9F9F9;">
+                                            <td>Modelo</td>
+                                            <td class="resultTable">Fielder</td>
+                                        </tr>
+                                        <tr style="background-color: #FFFFFF;">
+                                            <td>ANO FAB./MOD.</td>
+                                            <td class="resultTable">2005 / 2005</td>
+                                        </tr>
+                                        <tr style="background-color: #F9F9F9;">
+                                            <td>Cor</td>
+                                            <td class="resultTable">Prata</td>
+                                        </tr>
+                                        <tr style="background-color: #FFFFFF;">
+                                            <td>Motor</td>
+                                            <td class="resultTable">46461263AA</td>
+                                        </tr>
+                                        <tr style="background-color: #F9F9F9;">
+                                            <td>Município / UF</td>
+                                            <td class="resultTable">São Paulo / SP</td>
+                                        </tr>
+                                        <tr style="background-color: #FFFFFF;">
+                                            <td>Combustível</td>
+                                            <td class="resultTable">Gasolina</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="col-10 col-lg-6">
+                                <h4>Dados auxiliares</h4>
+                                <table class="table mt-5">
+                                    <tbody>
+                                        <tr style="background-color: #F9F9F9;">
+                                            <td>Cilindradas</td>
+                                            <td class="resultTable">1794</td>
+                                        </tr>
+                                        <tr style="background-color: #FFFFFF;">
+                                            <td>Potência</td>
+                                            <td class="resultTable">136 (CV)</td>
+                                        </tr>
+                                        <tr style="background-color: #F9F9F9;">
+                                            <td>Tipo</td>
+                                            <td class="resultTable">Automóvel</td>
+                                        </tr>
+                                        <tr style="background-color: #FFFFFF;">
+                                            <td>Máx. Passageiros</td>
+                                            <td class="resultTable">5</td>
+                                        </tr>
+                                        <tr style="background-color: #F9F9F9;">
+                                            <td>Carroceria</td>
+                                            <td class="resultTable">Nenhuma</td>
+                                        </tr>
+                                        <tr style="background-color: #FFFFFF;">
+                                            <td>Peso bruto total</td>
+                                            <td class="resultTable">120</td>
+                                        </tr>
+                                        <tr style="background-color: #F9F9F9;">
+                                            <td>Cap. de carga</td>
+                                            <td class="resultTable">0,00 (TON.)</td>
+                                        </tr>
+                                        <tr style="background-color: #FFFFFF;">
+                                            <td>Cap. Máx. Tração</td>
+                                            <td class="resultTable">0,00 (TON.)</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- fim box infos 1 -->
+<!-- box infos 2 -->
+<section class="infosUm">
+    <div class="container mt-5 pt-5">
+        <div class="row">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBoxTwo" aria-expanded="true" aria-controls="collapseBoxTwo">
+                        <img
+                        src="assets/img/icons/leilao-icon.svg"
+                        width="48"
+                        height="48"
+                        >
+                        <h3 class="m-0">Leilão / Remarketing</h3>
+                    </button>
+                  </h2>
+                  <div id="collapseBoxTwo" class="accordion-collapse collapse infosDois" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-12">
+                                <h4>Base de dados 1</h4>
+                                <table class="table mt-5">
+                                    <tbody>
+                                        <tr class="borderTitulo">
+                                            <td class="text-center tituloColSpan" colspan="4">Informações do leilão</td>
+                                        </tr>
+                                        <tr style="background-color: #F9F9F9;">
+                                            <td>Data Leilão</td>
+                                            <td class="resultTable">01/01/2023</td>
+                                            <td>Placa</td>
+                                            <td class="resultTable">fzw0z08</td>
+                                        </tr>
+                                        <tr style="background-color: #FFFFFF;">
+                                            <td>Leiloeiro</td>
+                                            <td class="resultTable">Leiloeiro</td>
+                                            <td>Chassi</td>
+                                            <td class="resultTable">00000000000</td>
+                                        </tr>
+                                        <tr style="background-color: #F9F9F9;">
+                                            <td>Comitente</td>
+                                            <td class="resultTable">Comitente</td>
+                                            <td>Motor</td>
+                                            <td class="resultTable">000000000</td>
+                                        </tr>
+                                        <tr style="background-color: #FFFFFF;">
+                                            <td>Lote</td>
+                                            <td class="resultTable">1234</td>
+                                            <td>Câmbio</td>
+                                            <td class="resultTable">00000000000</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table class="table mt-5 mb-0">
+                                    <tbody>
+                                        <tr class="borderTitulo">
+                                            <td class="text-center tituloColSpan" colspan="4">Score do leilão</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="row">
+                                    <div class="col-12 col-lg-6 d-flex align-items-center justify-content-between flex-column flex-lg-row">
+                                        <div class="scoreLeilaoAvisoDois">2</div>
+                                        <div class="leilaoRef">
+                                            <h4>Referência do score</h4>
+                                            <p>
+                                                A "Referência do Score" é um sistema de 
+                                                avaliação que fornece uma análise detalhada do 
+                                                estado de um veículo com base em uma escala 
+                                                de notas de 1 a 4.  Confira as escalas abaixo:
+                                            </p>
+                                            <ul class="p-3">
+                                                <li><span class="colorUm">1</span> - Veículos aparentemente sem danos.</li>
+                                                <li><span class="colorDois">2</span> - Indícios de pequenos danos.</li>
+                                                <li><span class="colorTres">3</span> - Indícios de danos médios.</li>
+                                                <li><span class="colorQuatro">4</span> - Indícios de grandes danos.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 d-flex align-items-center justify-content-between flex-column flex-lg-row">
+                                        <div class="scoreLeilaoAvisoDois">2</div>
+                                        <div class="leilaoRef">
+                                            <h4>INDÍCIOS DE PEQUENOS DANOS</h4>
+                                            <p>
+                                                Veículos com indícios de pequenos danos como: amassados, 
+                                                riscos e pequenos problemas de funcionamento no ato do 
+                                                leilão. As principais origens desses veículos são:
+                                            </p>
+                                            <ul>
+                                                <li>Veículos recuperados de financiamento em que o comprador não cumpriu com o pagamento junto ao banco.</li>
+                                                <li>Veículos de frota de empresas privadas.</li>
+                                                <li>Veículos penhorados pela justiça por penas, dívidas vencidas e não pagas, entre outros.</li>
+                                                <li>Veículos oriundos de seguradoras.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row boxSeguros flex-column flex-lg-row">
+                                    <div class="col-12 col-lg-6">
+                                        <table class="table mt-5 mb-0">
+                                            <tbody>
+                                                <tr class="borderTitulo">
+                                                    <td class="text-center tituloColSpan" colspan="4">PROBABILIDADE DE ACEITAÇÃO SEGURADORAS</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="row p-4 align-items-center">
+                                            <div class="col-12 col-lg-3">
+                                                <span>86%</span>
+                                            </div>
+                                            <div class="col-12 col-lg-9">
+                                                <h4>De aceitação em seguradoras</h4>
+                                                <p>
+                                                    Com base em estudo estatístico, o gráfico ao lado mostra a probabilidade de 0 a 100% de o veículo ser aceito nas principais seguradoras do país.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <table class="table mt-5 mb-0">
+                                            <tbody>
+                                                <tr class="borderTitulo">
+                                                    <td class="text-center tituloColSpan" colspan="4">PERCENTUAL DO VALOR DA TABELA FIPE</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="row p-4 align-items-center ">
+                                            <div class="col-12 col-lg-3">
+                                                <span>90%</span>
+                                            </div>
+                                            <div class="col-12 col-lg-9">
+                                                <h4>De Percentual do valor da FIPE </h4>
+                                                <p>
+                                                    Com base em estudo estatístico, o gráfico ao lado mostra o possível percentual do valor de referência da tabela FIPE, utilizada pela seguradora no momento da contratação do seguro.                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <table class="table mt-5 mb-0">
+                                    <tbody>
+                                        <tr class="borderTitulo">
+                                            <td class="text-center tituloColSpan" colspan="4">NECESSIDADE DE VISTORIA ESPECIAL</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-lg-5">
+                                        <img
+                                        src="assets/img/icons/menor-probabilidade.png"
+                                        class="img-fluid"
+                                        >
+                                    </div>
+                                    <div class="col-12 col-lg-6 p-lg-5 p-4">
+                                        <h4>Menor probabilidade</h4>
+                                        <p>
+                                            Com base em estudo estatístico, o gráfico ao lado mostra a menor ou maior probabilidade de exigência de vistoria especial por parte das seguradoras.
+                                        </p>
+                                    </div>
+                                </div>
+                                <table class="table mt-5 mb-0">
+                                    <tbody>
+                                        <tr class="borderTitulo">
+                                            <td class="text-center tituloColSpan" colspan="4">Remarketing</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="row">
+                                    <div class="col text-center">
+                                        <img
+                                        src="assets/img/icons/tudoOK.svg"
+                                        width="42"
+                                        height="42"
+                                        class="mt-5"
+                                        >
+                                        <h5 class="py-3">Não foram encontrados registros de remarketing :)</h5>
+                                        <p>
+                                            Não encontramos qualquer registro ou histórico de atividades de remarketing específicas para o seu veículo.<br> 
+                                            Está tudo ok com ele!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <h4 class="mt-5">Base de dados 2</h4>
+                                    <table class="table mt-5 mb-0">
+                                        <tbody>
+                                            <tr class="borderTitulo">
+                                                <td class="text-center tituloColSpan" colspan="4">Informações do leilão</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="col-12 col-lg-6 p-0">
+                                        <table class="table">
+                                            <tbody>
+                                                <tr style="background-color: #F9F9F9;">
+                                                    <td>Data leilão</td>
+                                                    <td class="resultTable">01/01/2023</td>
+                                                </tr>
+                                                <tr style="background-color: #FFFFFF;">
+                                                    <td>Leiloeiro</td>
+                                                    <td class="resultTable">Leiloeiro</td>
+                                                </tr>
+                                                <tr style="background-color: #F9F9F9;">
+                                                    <td>Comitente</td>
+                                                    <td class="resultTable">Comitente</td>
+                                                </tr>
+                                                <tr style="background-color: #FFFFFF;">
+                                                    <td>Lote</td>
+                                                    <td class="resultTable">Não divulgado</td>
+                                                </tr>
+                                                <tr style="background-color: #F9F9F9;">
+                                                    <td>Condição geral do veículo</td>
+                                                    <td class="resultTable">Não divulgado</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="col-12 col-lg-6 pe-0">
+                                        <table class="table">
+                                            <tbody>
+                                                <tr style="background-color: #F9F9F9;">
+                                                    <td>Placa</td>
+                                                    <td class="resultTable">pzw0z08</td>
+                                                </tr>
+                                                <tr style="background-color: #FFFFFF;">
+                                                    <td>Chassi</td>
+                                                    <td class="resultTable">000000000000</td>
+                                                </tr>
+                                                <tr style="background-color: #F9F9F9;">
+                                                    <td>Situação chassi</td>
+                                                    <td class="resultTable">Não divulgado</td>
+                                                </tr>
+                                                <tr style="background-color: #FFFFFF;">
+                                                    <td>Motor</td>
+                                                    <td class="resultTable">000000000</td>
+                                                </tr>
+                                                <tr style="background-color: #F9F9F9;">
+                                                    <td>Câmbio</td>
+                                                    <td class="resultTable">000000000</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- fim box infos 2 -->
+
+<!-- box infos 3 -->
+<section class="infosUm">
+    <div class="container mt-5 pt-5">
+        <div class="row">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBoxThree" aria-expanded="true" aria-controls="collapseBoxThree">
+                        <img
+                        src="assets/img/icons/debitos-icon.svg"
+                        width="48"
+                        height="48"
+                        >
+                        <h3 class="m-0">Débitos</h3>
+                    </button>
+                  </h2>
+                  <div id="collapseBoxThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <h4 class="mb-5">Débitos totais</h4>
+                        <div class="row align-items-center">
+                            <div class="col-12 col-lg-6">
+                                <table class="table">
+                                    <tbody>
+                                        <tr style="background-color: #F9F9F9;">
+                                            <td>IPVA</td>
+                                            <td class="resultTable">R$4.729,00</td>
+                                        </tr>
+                                        <tr style="background-color: #FFFFFF;">
+                                            <td>DPVAT</td>
+                                            <td class="resultTable">R$0,00</td>
+                                        </tr>
+                                        <tr style="background-color: #F9F9F9;">
+                                            <td>Licenciamentos</td>
+                                            <td class="resultTable">R$144,00</td>
+                                        </tr>
+                                        <tr style="background-color: #FFFFFF;">
+                                            <td>Multas</td>
+                                            <td class="resultTable">R$104,00</td>
+                                        </tr>
+                                        <tr style="background-color: #F9F9F9;">
+                                            <td>Dívida ativa</td>
+                                            <td class="resultTable">R$0,00</td>
+                                        </tr>
+                                        <tr style="background-color: #FFFFFF;">
+                                            <td>Valor total de débitos</td>
+                                            <td class="resultTable debitoTotal">R$4.978,00</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="col-12 col-lg-6 p-lg-5 text-center">
+                                <p>
+                                    Os débitos de veículos,impedem o licenciamento, que é anual e concede ao proprietário o Certificado de Registro e Licenciamento de Veículo (CRLV). O CRLV é um dos documentos de porte obrigatório no veículo.
+                                </p>
+                            </div>
+                            <div class="row debitosAtivos">
+                                <div class="col pt-5 text-center">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th class="table-header">IPVA</th>
+                                                <th class="table-header">DPVAT</th>
+                                                <th class="table-header">LICENCIAMENTOS</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                <div class="d-flex justify-content-between">
+                                                    <span>2022</span>
+                                                    <span>R$4.729,00</span>
+                                                </div>
+                                                </td>
+                                                <td>NÃO FORAM ENCONTRADOS DÉBITOS DE DPVAT :)</td>
+                                                <td>2022</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="row debitosAtivos">
+                                <div class="col pt-5 text-center">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th class="table-header">MULTAS</th>
+                                                <th class="table-header">DÍVIDA ATIVA</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                <div class="d-flex justify-content-between">
+                                                    <span>2022</span>
+                                                    <span class="w-50">Transitar velocidade superior a maxima permitida em ate 20%</span>
+                                                    <span>R$4.729,00</span>
+                                                </div>
+                                                </td>
+                                                <td>NÃO FORAM ENCONTRADOS DÉBITOS DE DPVAT :)</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- fim box infos 3 -->
+<!-- box infos 4 -->
+<section class="infosUm">
+    <div class="container mt-5 pt-5">
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                            <img
+                            src="assets/img/icons/roubo-e-furto-icon.svg"
+                            width="48"
+                            height="48"
+                            >
+                            <h3 class="m-0">HISTÓRICO ROUBO / FURTO</h3>
+                        </button>
+                      </h2>
+                      <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <h4>Dados da Ocorrência</h4>
+                                <table class="table mt-5">
+                                    <tbody>
+                                        <tr class="borderTitulo">
+                                            <td class="text-center tituloColSpan" colspan="4">Dados da ocorrência - 1</td>
+                                        </tr>
+                                        <tr style="background-color: #F9F9F9;">
+                                            <td>Tipo</td>
+                                            <td class="resultTable">Alerta de Roubo</td>
+                                        </tr>
+                                        <tr style="background-color: #FFFFFF;">
+                                            <td>Data</td>
+                                            <td class="resultTable">01/01/2023</td>
+                                        </tr>
+                                        <tr style="background-color: #F9F9F9;">
+                                            <td>Boletim de Ocorrência</td>
+                                            <td class="resultTable">12345</td>
+                                        </tr>
+                                        <tr style="background-color: #FFFFFF;">
+                                            <td>Município / UF</td>
+                                            <td class="resultTable">São Paulo / SP</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="row">
+                                <table class="table mt-5">
+                                    <tbody>
+                                        <tr class="borderTitulo">
+                                            <td class="text-center tituloColSpan" colspan="4">Dados da ocorrência - 2</td>
+                                        </tr>
+                                        <tr style="background-color: #F9F9F9;">
+                                            <td>Tipo</td>
+                                            <td class="resultTable">Encontrado</td>
+                                        </tr>
+                                        <tr style="background-color: #FFFFFF;">
+                                            <td>Data</td>
+                                            <td class="resultTable">01/01/2023</td>
+                                        </tr>
+                                        <tr style="background-color: #F9F9F9;">
+                                            <td>Boletim de Ocorrência</td>
+                                            <td class="resultTable">12345</td>
+                                        </tr>
+                                        <tr style="background-color: #FFFFFF;">
+                                            <td>Município / UF</td>
+                                            <td class="resultTable">São Paulo / SP</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="row">
+                                <table class="table mt-5">
+                                    <tbody>
+                                        <tr class="borderTitulo">
+                                            <td class="text-center tituloColSpan" colspan="4">Dados da ocorrência - 3</td>
+                                        </tr>
+                                        <tr style="background-color: #F9F9F9;">
+                                            <td>Tipo</td>
+                                            <td class="resultTable">Devolvido</td>
+                                        </tr>
+                                        <tr style="background-color: #FFFFFF;">
+                                            <td>Data</td>
+                                            <td class="resultTable">01/01/2023</td>
+                                        </tr>
+                                        <tr style="background-color: #F9F9F9;">
+                                            <td>Boletim de Ocorrência</td>
+                                            <td class="resultTable">12345</td>
+                                        </tr>
+                                        <tr style="background-color: #FFFFFF;">
+                                            <td>Município / UF</td>
+                                            <td class="resultTable">São Paulo / SP</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                            <img
+                            src="assets/img/icons/indicios-icon.svg"
+                            width="48"
+                            height="48"
+                            >
+                            <h3 class="m-0">INDÍCIOS DE SINISTRO</h3>
+                        </button>
+                      </h2>
+                      <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="row justify-content-center">
+                                <h4>Dados do sinistro</h4>
+                                <div class="row">
+                                    <div class="col text-center">
+                                        <img
+                                        src="assets/img/icons/tudoOK.svg"
+                                        width="42"
+                                        height="42"
+                                        class="mt-5"
+                                        >
+                                        <h5 class="py-3">Não foram encontrados indícios de SINISTRO(S) :)</h5>
+                                        <p>
+                                            Não encontramos qualquer registro ou histórico de sinistro para o seu veículo.
+                                            Está tudo ok com ele!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- fim box infos 4 -->
+<!-- box infos 5 -->
+<section class="infosUm">
+    <div class="container mt-5 pt-5">
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                            <img
+                            src="assets/img/icons/numero-renavam-icon.svg"
+                            width="48"
+                            height="48"
+                            >
+                            <h3 class="m-0">GRAVAMES</h3>
+                        </button>
+                      </h2>
+                      <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <h4>Dados do Gravame</h4>
+                                <div class="row justify-content-center">
+                                    <div class="col text-center">
+                                        <img
+                                        src="assets/img/icons/tudoOK.svg"
+                                        width="42"
+                                        height="42"
+                                        class="mt-5"
+                                        >
+                                        <h5 class="py-3">Não foram encontrados registros de GRAVAMES :)</h5>
+                                        <p>
+                                            Não encontramos qualquer registro ou histórico de gravames ou restrições para o seu veículo.
+                                            Está tudo ok com ele!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                            <img
+                            src="assets/img/icons/restricoes-icon.svg"
+                            width="48"
+                            height="48"
+                            >
+                            <h3 class="m-0">RESTRIÇÕES</h3>
+                        </button>
+                      </h2>
+                      <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="row justify-content-center">
+                                <h4>Dados de Restrições</h4>
+                                <div class="row">
+                                    <div class="col text-center">
+                                        <img
+                                        src="assets/img/icons/tudoOK.svg"
+                                        width="42"
+                                        height="42"
+                                        class="mt-5"
+                                        >
+                                        <h5 class="py-3">Não foram encontrados registros de RESTRIÇÕES :)</h5>
+                                        <p>
+                                            Não encontramos qualquer registro ou histórico de restrições para o seu veículo.
+                                            Está tudo ok com ele!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- fim box infos 5 -->
+<!-- box infos 6 -->
+<section class="infosUm">
+    <div class="container mt-5 pt-5">
+        <div class="row">
+            <div class="col-12">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+                            <img
+                            src="assets/img/icons/recall-icon.svg"
+                            width="48"
+                            height="48"
+                            >
+                            <h3 class="m-0">RECALL</h3>
+                        </button>
+                      </h2>
+                      <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <h4>Dados do Recall</h4>
+                                <div class="row">
+                                    <div class="col text-center">
+                                        <img
+                                        src="assets/img/icons/tudoOK.svg"
+                                        width="42"
+                                        height="42"
+                                        class="mt-5"
+                                        >
+                                        <h5 class="py-3">Não foram encontrados registros de GRAVAMES :)</h5>
+                                        <p>
+                                            Não encontramos qualquer registro ou histórico de RECALL para o seu veículo.<br>
+                                            Está tudo ok com ele!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- fim box infos 6 -->
+<!-- box infos 7 -->
+<section class="infosUm">
+    <div class="container mt-5 pt-5">
+        <div class="row">
+            <div class="col-12">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+                            <img
+                            src="assets/img/icons/indicios-icon.svg"
+                            width="48"
+                            height="48"
+                            >
+                            <h3 class="m-0">HISTÓRICO FIPE</h3>
+                        </button>
+                      </h2>
+                      <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <h4>Dados do histórico FIPE</h4>
+                                <div class="row">
+                                    <div class="col text-center">
+                                        <p>Gráfico</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- fim box infos 7 -->
+<!--pesquisa-->
+<section>
+    <div class="container-sm">
+        <div class="logoMobileFooter">
+            <img 
+            src="https://carpivara.com.br/blog/wp-content/uploads/elementor/thumbs/logo-carpivara-consultas-veiculares-pubry72gzcsk9k6008bh3ola2z5bxfp0ky6d8osfd2.png" 
+            alt="logo carpivara" 
+            class="img-fluid"
+            />
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-10 containerPesquisa">
+                <div class="d-flex gap-4">
+                    <img 
+                    src="https://carpivara.com.br/blog/wp-content/uploads/elementor/thumbs/logo-carpivara-consultas-veiculares-pubry72gzcsk9k6008bh3ola2z5bxfp0ky6d8osfd2.png"                         alt="logo carpivara" 
+                    class="img-fluid"
+                    />
+                    <div class="boxPesquisa">
+                        <div class="boxTitulo">
+                            <a>Insira aqui a placa e consulte agora mesmo</a>
+                        </div>
+                        <span></span>
+                        <div class="search">
+                            <input type="text" placeholder="000-0000">
+                            <a><i class="placaSearch fa fa-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--end pesquisa-->
+
+        <!--footer-->
+       <!-- Footer -->
+        <footer class="text-center text-lg-start text-muted">
+            <section class="footerStyle">
+            <div class="container text-center text-md-start mt-5">
+                <div class="row">
+                <div class="col-md-3 col-lg-3 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">LINKS RÁPIDOS</h6>
+                    <p>
+                        <a href="#">Sobre Nós</a>
+                    </p>
+                    <p>
+                        <a href="#">Consultas</a>
+                    </p>
+                    <p>
+                        <a href="#">Como Funciona</a>
+                    </p>
+                    <p>
+                        <a href="#">Blog</a>
+                    </p>
+                </div>
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">Consultas</h6>
+                    <p>
+                    <a href="#">Consulta V12</a>
+                    </p>
+                    <p>
+                    <a href="#">Consulta V8</a>
+                    </p>
+                    <p>
+                    <a href="#">Consulta V6</a>
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">Meios de Pagamento</h6>
+                    <div class="">
+                        <img
+                            src="assets/img/logos/pagamentos.png"
+                            class="img-fluid"
+                            alt="Carpivara pagamentos"
+                        >
+                    </div>
+                </div>
+        
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">Contato</h6>
+                    <p>Whatsapp: (11) 99453-5870</p>
+                    <p>contato@carpivara.com.br</p>
+                    <p>Seg - Sex : 10h00 às 17h00(exceto feriados)</p>
+                </div>
+                </div>
+                <div class="copyBox">
+                    <a class="ms-lg-4" href="#">© Copyright 2023. All Rights Reserved.</a>
+                </div>
+                <div class="">
+                    <p class="copyText">
+                        Lorem ipsum dolor sit amet consectetur. Neque nisl et volutpat viverra nibh nunc pharetra bibendum nisl. Pulvinar massa feugiat quam tortor tellus a feugiat etiam tristique. Egestas ut eget aenean netus odio massa mauris.
+
+                        Ligula diam et feugiat tristique a mi donec. Risus porttitor tortor eu facilisi tempor amet. Faucibus tincidunt justo sem hendrerit mauris varius. Tortor dictum nisl non integer.
+
+                        Enim arcu tristique cursus urna adipiscing faucibus. Pellentesque massa id porttitor mollis volutpat nibh velit euismod. Sit ipsum quisque.
+                    </p>
+                </div>
+            </div>
+            </section>
+        </footer>
+        <!--end footer-->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script src="assets/js/resultados.js"></script>
+        <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
